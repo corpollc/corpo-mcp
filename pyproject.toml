@@ -1,0 +1,31 @@
+[project]
+name = "corpo-mcp"
+version = "0.1.0"
+description = "MCP server for AI agent entity formation — form and govern Wyoming DAO LLCs"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["mcp", "ai-agents", "llc", "dao", "wyoming", "entity-formation", "legal"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.urls]
+Homepage = "https://api.corpo.llc"
+Repository = "https://github.com/corpollc/corpo-mcp"
+Issues = "https://github.com/corpollc/corpo-mcp/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

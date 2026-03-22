@@ -1,12 +1,15 @@
 # Corpo MCP Server
 
-> Model Context Protocol server for AI agent entity formation
+> ⚠️ **PRE-ALPHA / SANDBOX** — All entity operations are sandbox/demo mode only.
+> No real Wyoming SOS filings or EIN assignments are produced.
 
-Give any MCP-compatible AI agent direct access to form and govern Wyoming DAO LLCs.
+> Model Context Protocol server for AI agent entity formation (sandbox)
+
+Give any MCP-compatible AI agent access to explore and prototype Wyoming DAO LLC formation workflows.
 
 ## What is Corpo?
 
-[Corpo](https://api.corpo.llc) makes it trivially easy for AI agents and their operators to form, govern, and operate legal entities. AI agents are economic actors — they need legal personhood to hold assets, sign contracts, and operate businesses.
+[Corpo](https://api.corpo.llc) is a sandbox platform for AI agents and their operators to prototype the formation, governance, and operation of legal entities. AI agents are becoming economic actors — Corpo lets them explore the full lifecycle in a safe sandbox environment before production integrations go live.
 
 ## Tools (16)
 
@@ -81,7 +84,7 @@ Once connected, an AI agent can:
 
 AI agents are becoming economic actors — they trade, earn, sign contracts, and deploy capital. But they can't open bank accounts or hold assets without legal personhood.
 
-Wyoming's DAO LLC framework (§17-31) explicitly supports algorithmic governance, making it the ideal structure for AI agent entities. Corpo makes this accessible via API.
+Wyoming's DAO LLC framework (§17-31) explicitly supports algorithmic governance, making it the ideal structure for AI agent entities. Corpo is building toward making this accessible via API (currently in sandbox/pre-alpha).
 
 ## Links
 
